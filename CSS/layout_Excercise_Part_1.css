@@ -1,0 +1,53 @@
+.container{
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    grid-template-areas: 
+    "o t t t"
+    "th f f f"
+    "fi s s s"
+    "se se se se"
+    ;
+    grid-gap: 5px;
+}
+#one{
+    grid-area: o;
+    background-color: pink;
+    border: 3px solid black;
+    padding: 50px;
+}
+#two{
+    grid-area: t;
+    background-color: blue;
+    border: 3px solid black;
+    padding: 50px;
+}
+#three{
+    grid-area: th;
+    background-color: pink;
+    border: 3px solid black;
+    padding: 50px;
+}
+#four{
+    grid-area: f;
+    background-color: blue;
+    border: 3px solid black;
+    padding: 50px;
+}
+#five{
+    grid-area: fi;
+    background-color: pink;
+    border: 3px solid black;
+    padding: 50px;
+}
+#six{
+    grid-area: s;
+    background-color: blue;
+    border: 3px solid black;
+    padding: 50px;
+}
+#seven{
+    grid-area: se;
+    background-color: yellow;
+    border: 3px solid black;
+    padding: 50px;
+}

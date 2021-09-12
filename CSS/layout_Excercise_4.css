@@ -1,0 +1,64 @@
+.container{
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template-areas: 
+    "o o o"
+    "t th f"
+    "fi s se";
+    grid-gap: 15px;
+    gr
+}
+#one{
+    grid-area: o;
+    background-color: green;
+    border: 3px solid black;
+    padding: 50px;
+}
+#two{
+    grid-area: t;
+    background-image:url(/Images/night-time.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    padding: 50px;
+}
+#three{
+    grid-area: th;
+    background-image:url(/Images/night-time.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    padding: 50px;
+}
+#four{
+    grid-area: f;
+    background-image:url(/Images/night-time.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    padding: 50px;
+}
+#five{
+    grid-area: fi;
+    background-color: pink;
+    border: 3px solid black;
+    padding: 50px;
+}
+#six{
+    grid-area: s;
+    background-color: blue;
+    border: 3px solid black;
+    padding: 50px;
+}
+#seven{
+    grid-area: se;
+    background-color: yellow;
+    border: 3px solid black;
+    padding: 50px;
+}

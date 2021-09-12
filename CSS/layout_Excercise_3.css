@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(3, 1fr);
+    grid-template-areas: 
+    "o o o "
+    "t th f"
+    "t th f"
+    "t th f"
+    "t th f"
+    "t th f"
+    ;
+    grid-gap: 5px;
+}
+#one{
+    grid-area: o;
+    background-color: pink;
+    border: 3px solid black;
+    padding: 50px;
+}
+#two{
+    grid-area: t;
+    background-color: blue;
+    border: 3px solid black;
+    padding: 50px;
+}
+#three{
+    grid-area: th;
+    background-color: pink;
+    border: 3px solid black;
+    padding: 50px;
+}
+#four{
+    grid-area: f;
+    background-color: blue;
+    border: 3px solid black;
+    padding: 50px;
+}
